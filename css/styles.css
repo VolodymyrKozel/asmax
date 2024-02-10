@@ -1,0 +1,17 @@
+@import url('./base.css');
+@import url('./reset.css');
+
+.header {
+    padding: 2.14em;
+}
+.header-container {
+    display: flex;
+}
+.header-img-logo {
+
+}
+
+.menu-list {
+    display: flex;
+    gap: 60px;
+}
