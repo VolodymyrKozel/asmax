@@ -1,0 +1,105 @@
+.hero-title {
+  padding-top: 0.95em;
+  margin-bottom: 1.67em;
+  font-weight: 500;
+  font-family: "Libre Baskerville", serif;
+  color: #000;
+  line-height: 1.1;
+}
+.hero-text {
+  width: 320px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.btn-hero {
+  max-width: 477px;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 5% 10% 5% 5%;
+  color: #050105;
+  font-size: 14px; /* Use em for font size */
+  font-style: italic;
+  font-family: "Libre Baskerville", serif;
+  background-color: #f9b800;
+}
+.btn-icon {
+  transition: transform 250ms ease;
+}
+.btn-hero:is(:hover, :focus) .btn-icon {
+  transform: translateX(20%);
+}
+.hero {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.hero-bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-image: linear-gradient(
+      rgba(17, 17, 17, 0.4),
+      rgba(17, 17, 17, 0.4)
+    ),
+    url("../img/home-hero.jpg");
+}
+.hero-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-hero {
+  width: 90%;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 576px) {
+  .hero-title {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-text {
+    font-size: 14px;
+  }
+  .btn-hero {
+    font-size: 16px;
+  }
+  .hero-title {
+    width: 55%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .hero-text {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-hero {
+    width: 80%;
+  }
+  .hero-text {
+    font-size: 20px;
+  }
+  .btn-hero {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-title {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero-title {
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 991.98px) {
+}

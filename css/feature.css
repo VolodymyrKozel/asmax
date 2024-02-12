@@ -1,0 +1,139 @@
+.feature {
+  max-width: 1920px;
+  background-color: #f5f5f5;
+  padding: 8% 0;
+  margin: 0 auto;
+}
+.feature-container {
+  flex-wrap: wrap;
+  gap: 6.25%;
+  width: 90%;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+.right-container {
+  padding: 45px 0;
+}
+.feature-title-h2 {
+  font-weight: 500;
+  text-align: right;
+  margin-bottom: 42px;
+}
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 34px;
+  justify-content: space-around;
+  gap: 24px;
+}
+.feature-item {
+  text-align: center;
+}
+.feature-title {
+  font-family: "Libre Baskerville", serif;
+
+  color: #f9b800;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.feature-text {
+  margin: 0 auto;
+  width: min-content;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  line-height: 1.42;
+}
+.feature-desc {
+  text-align: right;
+  margin-bottom: 16px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.feature-btn {
+  background-color: transparent;
+  padding: 21px 0 21px 44px;
+  margin-left: auto;
+  transition: color 250ms ease;
+}
+.feature-btn:is(:hover, :focus) {
+  color: #f9b800;
+}
+.feature-btn-icon {
+  transition: fill 250ms ease, transform 250ms ease;
+}
+.feature-btn:is(:hover, :focus) .feature-btn-icon {
+  fill: #f9b800;
+}
+.feature-btn:is(:hover, :focus) .btn-icon {
+  transform: translateX(20%);
+}
+
+/* Media query for 576px width */
+@media screen and (min-width: 576px) {
+}
+
+/* Media query for 768px width */
+@media screen and (min-width: 768px) {
+  .feature-title-h2 {
+    margin-bottom: 84px;
+  }
+  .feature-title {
+    font-size: 28px;
+  }
+  .feature-container {
+    display: flex;
+  }
+  .feature-img {
+    margin-left: -12.5%;
+    width: 52.5%;
+    object-fit: cover;
+    height: 667px;
+  }
+  .right-container {
+    order: 1;
+    width: 52%; /* 650px */
+    float: right;
+  }
+  .feature-list {
+    justify-content: space-between;
+  }
+}
+
+/* Media query for 992px width */
+@media screen and (min-width: 992px) {
+  .feature-img {
+    margin-left: -12.5%;
+    width: 62.5%;
+  }
+  .right-container {
+    width: 42%; /* 650px */
+  }
+}
+
+/* Media query for 1200px width */
+@media screen and (min-width: 1200px) {
+  .feature-title {
+    font-size: 38px;
+  }
+  .feature-container {
+    width: 80%;
+  }
+}
+
+/* Media query for 1440px width */
+@media screen and (min-width: 1440px) {
+  .feature-title {
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .feature-title-h2 {
+    margin-bottom: 84px;
+  }
+}

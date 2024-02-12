@@ -1,0 +1,90 @@
+/* Default font size for mobile */
+h1 {
+  font-size: 38px;
+  font-family: "Libre Baskerville", serif;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 1.1;
+  font-family: "Libre Baskerville", serif;
+}
+h3 {
+  font-family: "Libre Baskerville", serif;
+  font-size: calc(48px * 0.5);
+  color: #fff;
+  line-height: 1;
+}
+
+/* Media query for 576px width */
+@media screen and (min-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+}
+
+/* Media query for 768px width */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+}
+
+/* Media query for 992px width */
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: calc(48px * 0.6);
+  }
+}
+
+/* Media query for 1200px width */
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 96px;
+  }
+
+  h2 {
+    font-size: 54px;
+  }
+  h3 {
+    font-size: calc(48px * 0.7);
+  }
+}
+
+/* Media query for 1440px width */
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 112px;
+  }
+
+  h2 {
+    font-size: 66px;
+  }
+  h3 {
+    font-size: calc(48px * 0.8);
+  }
+}
+@media screen and (min-width: 1920px) {
+  h2 {
+    font-size: 92px;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 48px;
+  }
+}
