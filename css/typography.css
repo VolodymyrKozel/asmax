@@ -76,7 +76,7 @@ h3 {
     font-size: 66px;
   }
   h3 {
-    font-size: calc(48px * 0.8);
+    font-size: calc(48px * 0.7);
   }
 }
 @media screen and (min-width: 1920px) {
