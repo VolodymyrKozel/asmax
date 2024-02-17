@@ -5,7 +5,6 @@
   margin: 0 auto;
 }
 .feature-container {
-  flex-wrap: wrap;
   gap: 6.25%;
   width: 90%;
   padding: 0 24px;
@@ -68,16 +67,11 @@
   transition: fill 250ms ease, transform 250ms ease;
 }
 .feature-btn:is(:hover, :focus) .feature-btn-icon {
-  fill: #f9b800;
+  stroke: #f9b800;
 }
 .feature-btn:is(:hover, :focus) .btn-icon {
   transform: translateX(20%);
 }
-
-/* Media query for 576px width */
-@media screen and (min-width: 576px) {
-}
-
 /* Media query for 768px width */
 @media screen and (min-width: 768px) {
   .feature-title-h2 {
@@ -104,7 +98,6 @@
     justify-content: space-between;
   }
 }
-
 /* Media query for 992px width */
 @media screen and (min-width: 992px) {
   .feature-img {

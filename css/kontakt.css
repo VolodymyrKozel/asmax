@@ -1,0 +1,148 @@
+.kontakt {
+  max-width: 1920px;
+  padding: 8% 0;
+  background: url(../img/kontakt-bg.jpg);
+  margin: 0 auto;
+  background-color: #fff;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kontakt-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  width: 90%;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+.kontakt-title {
+  font-weight: 500;
+  font-family: "Libre Baskerville", serif;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.accent {
+}
+.kontakt-form {
+  padding: 4.5% 6% 2.5% 6%;
+  background-color: #f8b801;
+}
+.form-title {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Libre Baskerville", serif;
+  margin-bottom: 26px;
+}
+.form-input {
+  padding: 12px 0;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-style: italic;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 32px;
+  transition: font-weight 550ms ease;
+}
+.form-input:focus {
+  border-color: #000;
+}
+.form-input:hover {
+  font-weight: bold;
+}
+.form-input::placeholder {
+  opacity: 1;
+  color: #000;
+}
+.form-textarea {
+  height: 105px;
+  resize: none;
+}
+.btn {
+}
+.form-btn:is(:hover, :focus) {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #f8b801;
+}
+.form-btn {
+  color: #fff;
+  padding: 19px 62px;
+  background: hsl(0, 10%, 0%);
+  font-style: italic;
+  font-size: 18px;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  border: 0;
+  text-transform: lowercase;
+  margin-bottom: 16px;
+  margin-left: auto;
+  transition: box-shadow 250ms ease, color 250ms ease;
+}
+@media screen and (max-width: 768px) {
+  .kontakt-container {
+    flex-direction: column-reverse;
+    gap: 32px;
+  }
+  .kontakt-title {
+    text-align: center;
+  }
+}
+/* Media query for 576px width */
+@media screen and (min-width: 576px) {
+}
+
+/* Media query for 768px width */
+@media screen and (min-width: 768px) {
+  .kontakt-title {
+    width: 50%;
+    text-align: right;
+  }
+  .kontakt-form {
+    width: 40%;
+  }
+  .form-title {
+    font-size: 32px;
+  }
+  .kontakt-title {
+    font-size: 22px;
+  }
+}
+
+/* Media query for 992px width */
+@media screen and (min-width: 992px) {
+  .form-title {
+    font-size: 38px;
+  }
+  .kontakt-form {
+    width: 30%;
+  }
+  .kontakt-title {
+    font-size: 24px;
+  }
+}
+
+/* Media query for 1200px width */
+@media screen and (min-width: 1200px) {
+  .map-container {
+    width: 80%;
+  }
+  .form-title {
+    font-size: 46px;
+  }
+  .kontakt-title {
+    font-size: 26px;
+  }
+}
+
+/* Media query for 1440px width */
+@media screen and (min-width: 1440px) {
+  .kontakt-form {
+  }
+  .form-title {
+    font-size: 56px;
+  }
+}

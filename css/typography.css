@@ -2,18 +2,21 @@
 h1 {
   font-size: 38px;
   font-family: "Libre Baskerville", serif;
+  letter-spacing: -0.025em;
 }
 
 h2 {
   font-size: 32px;
   line-height: 1.1;
   font-family: "Libre Baskerville", serif;
+  letter-spacing: -0.025em;
 }
 h3 {
   font-family: "Libre Baskerville", serif;
   font-size: calc(48px * 0.5);
   color: #fff;
   line-height: 1;
+  letter-spacing: -0.025em;
 }
 
 /* Media query for 576px width */
@@ -23,7 +26,7 @@ h3 {
   }
 
   h2 {
-    font-size: 34px;
+    font-size: 38px;
   }
 }
 
@@ -34,7 +37,7 @@ h3 {
   }
 
   h2 {
-    font-size: 38px;
+    font-size: 48px;
   }
 }
 
@@ -45,7 +48,7 @@ h3 {
   }
 
   h2 {
-    font-size: 48px;
+    font-size: 54px;
   }
   h3 {
     font-size: calc(48px * 0.6);
@@ -59,7 +62,7 @@ h3 {
   }
 
   h2 {
-    font-size: 54px;
+    font-size: 66px;
   }
   h3 {
     font-size: calc(48px * 0.7);
@@ -70,20 +73,18 @@ h3 {
 @media screen and (min-width: 1440px) {
   h1 {
     font-size: 112px;
+    /*     font-size: clamp(96px, 6vw, 112px); */
   }
 
   h2 {
-    font-size: 66px;
+    font-size: clamp(66px, 4vw, 92px);
+    font-weight: 500;
   }
   h3 {
     font-size: calc(48px * 0.7);
   }
 }
 @media screen and (min-width: 1920px) {
-  h2 {
-    font-size: 92px;
-    font-weight: 500;
-  }
   h3 {
     font-size: 48px;
   }

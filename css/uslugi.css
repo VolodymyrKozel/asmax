@@ -43,8 +43,6 @@
 .uslugi-text {
   margin-bottom: 16px;
 }
-.btn {
-}
 .uslugi-btn {
   background-color: transparent;
   padding: 21px 0 21px 44px;
@@ -58,10 +56,10 @@
   transition: fill 250ms ease, transform 250ms ease;
 }
 .btn-icon {
-  fill: #000;
+  stroke: #000;
 }
 .uslugi-btn:is(:hover, :focus) .uslugi-btn-icon {
-  fill: #f5f5f5;
+  stroke: #f5f5f5;
   transform: translateX(20%);
 }
 /* Media query for 576px width */

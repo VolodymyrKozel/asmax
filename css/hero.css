@@ -10,7 +10,7 @@
   width: 320px;
   text-transform: uppercase;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
   letter-spacing: 0.05em;
 }
 .btn-hero {
@@ -40,11 +40,7 @@
   background-position: center;
   background-size: cover;
 
-  background-image: linear-gradient(
-      rgba(17, 17, 17, 0.4),
-      rgba(17, 17, 17, 0.4)
-    ),
-    url("../img/home-hero.jpg");
+  background-image: url("../img/home-hero.jpg");
 }
 .hero-footer {
   display: flex;
@@ -52,6 +48,7 @@
   gap: 24px;
   align-items: center;
   justify-content: space-between;
+  border-top: 1px solid #a3a6ab;
 }
 .container-hero {
   width: 90%;

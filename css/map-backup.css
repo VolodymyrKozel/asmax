@@ -1,0 +1,63 @@
+.map {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  background-image: url("../img/strona_glowna-8.jpg");
+}
+.map-container {
+  width: 90%;
+  padding: 5.2% 24px 8.33% 24px;
+  margin: 0 auto;
+}
+.map-wrapper {
+  width: 80%;
+  /*   background-color: rgba(245, 245, 245, 0.8);
+  border-radius: 30px; */
+}
+.map-title {
+  position: relative;
+  padding-bottom: 3.5%;
+  margin-bottom: 3.125%;
+}
+.map-title::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #b3b3b3;
+  width: 122%;
+}
+.map-text {
+  font-size: 26px;
+  line-height: 36px;
+  font-family: "Libre Baskerville", serif;
+}
+@media screen and (min-width: 768px) {
+  .map-wrapper {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .map {
+    height: 480px;
+  }
+}
+/* Media query for 1200px width */
+@media screen and (min-width: 1200px) {
+  .map-container {
+    width: 80%;
+  }
+  .map {
+    height: 550px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .map {
+    background-size: auto;
+    height: 774px;
+  }
+}

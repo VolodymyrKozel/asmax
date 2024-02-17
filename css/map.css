@@ -1,0 +1,108 @@
+.map {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.map-container {
+  max-width: 1920px;
+  width: 90%;
+  padding: 0 24px;
+}
+.map-wrapper {
+  padding-top: 5.2%;
+  padding-bottom: 5.2%;
+}
+.map-title {
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 3.1%;
+  margin-bottom: 3.1%;
+}
+.map-title::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #b3b3b3;
+  width: 122%;
+}
+.map-text {
+  font-size: 16px;
+  line-height: 1.38;
+  font-family: "Libre Baskerville", serif;
+}
+@media screen and (max-width: 767.99px) {
+  .map-img {
+    padding: 0 24px;
+    margin: 0 auto;
+  }
+  .map-container {
+    text-align: center;
+  }
+  .map-title {
+    margin: 0 auto;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+  }
+  .map-title::after {
+    width: 100%;
+  }
+  .map-wrapper {
+    padding-top: 0;
+    padding-bottom: 5.2%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .map {
+    position: relative;
+  }
+  .map-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .map-img {
+    margin-left: auto;
+    width: 60%;
+    min-height: 350px;
+    max-height: 774px;
+    object-fit: contain;
+  }
+  .map-text {
+    width: 45%;
+    font-size: 18px;
+  }
+  .map-title {
+    width: 46%;
+  }
+}
+/* Media query for 992px width */
+@media screen and (min-width: 992px) {
+  .map-text {
+    width: 40%;
+    font-size: 22px;
+  }
+  .map-title {
+    width: 44%;
+  }
+}
+
+/* Media query for 1200px width */
+@media screen and (min-width: 1200px) {
+  .map-container {
+    width: 80%;
+  }
+  .map-text {
+    width: 37%;
+    font-size: 26px;
+  }
+}
+
+/* Media query for 1440px width */
+@media screen and (min-width: 1440px) {
+  .map-title {
+    width: 41%;
+  }
+}

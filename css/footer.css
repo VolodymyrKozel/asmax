@@ -1,0 +1,144 @@
+.footer {
+  background-color: #060107;
+  color: #fff;
+}
+.footer-container {
+  width: 90%;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+.footer-top {
+  padding: 80px 0;
+}
+.footer-bottom {
+  padding: 40px 0;
+}
+.footer-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.footer-address-text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.social-item:is(:hover, :focus) .footer-social-icon {
+  fill: #fff;
+}
+.footer-address-link,
+.footer-link {
+  transition: color 250ms ease-in;
+}
+.footer-phone:is(:hover, :focus) {
+  color: #f9b800;
+}
+.footer-phone {
+  font-family: "Libre Baskerville", serif;
+  font-size: 34px;
+}
+.footer-email {
+  font-family: "Libre Baskerville", serif;
+  font-size: 24px;
+  color: #f9b800;
+}
+.footer-email:is(:hover, :focus) {
+  color: #fff;
+}
+.footer-list {
+  text-align: center;
+}
+.footer-link {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer-copyrights {
+  font-size: 14px;
+  text-align: center;
+}
+.footer-address-item {
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 767.98px) {
+  .footer {
+    background-color: #060107;
+    color: #fff;
+    padding: 32px 0 32px 0;
+  }
+  .footer-img-logo {
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+  .footer-title {
+    margin-bottom: 16px;
+  }
+  .footer-address-text {
+    margin-bottom: 16px;
+  }
+  .footer-top {
+    padding: 32px 0;
+    text-align: center;
+  }
+  .footer-bottom {
+    padding: 32px 0;
+    text-align: center;
+  }
+  .footer-social {
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+  .footer-address-list {
+    margin-bottom: 32px;
+  }
+
+  .footer-copyrights {
+    text-align: center;
+  }
+  .footer-list {
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .footer-link {
+    display: block;
+    padding: 8px 0;
+  }
+  .footer-link {
+    font-size: 16px;
+  }
+}
+/* Media query for 576px width */
+@media screen and (min-width: 576px) {
+}
+
+/* Media query for 768px width */
+@media screen and (min-width: 768px) {
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-logo-link {
+    width: 50%;
+  }
+  .footer-bottom {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-item {
+    white-space: nowrap;
+  }
+  .footer-copyrights {
+    width: 50%;
+  }
+
+  .footer-list {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+  }
+}

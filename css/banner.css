@@ -1,0 +1,112 @@
+.banner {
+  padding: 5.7% 0;
+  background: url(../img/banner-office.jpg);
+  margin: 0 auto;
+  background-color: #fff;
+  background-position: center;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+}
+.container {
+  width: 90%;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+.banner-title {
+  text-align: center;
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-size: calc(56px * 0.5);
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 760px;
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.banner-text {
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-size: calc(92px * 0.5);
+  line-height: 1.2;
+  margin-bottom: 37px;
+}
+.btn {
+}
+.banner-btn {
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
+  font-size: 14px;
+  padding: 1em 1.6em 1em 1.6em;
+  color: #050105;
+  background-color: #f9b800;
+  font-style: italic;
+  font-family: "Libre Baskerville", serif;
+  margin: 0 auto;
+  transition: color 250ms ease, background-color 250ms ease;
+}
+.banner-btn:is(:hover, :focus) {
+  background-color: #050105;
+  color: #fff;
+}
+.banner-btn-icon {
+  flex-shrink: 0;
+}
+.banner-btn:is(:hover, :focus) .banner-btn-icon {
+  stroke: #fff;
+  transform: translateX(20px);
+}
+.btn-icon {
+  align-self: center;
+  stroke: #050105;
+  transition: color 250ms ease, transform 250ms ease;
+}
+
+/* Media query for 576px width */
+@media screen and (min-width: 576px) {
+  .banner-btn {
+    font-size: 16px;
+    padding: 1.6em 2.44em 1.6em 2.44em;
+  }
+}
+
+/* Media query for 768px width */
+@media screen and (min-width: 768px) {
+  .banner-btn {
+    font-size: 18px;
+  }
+}
+
+/* Media query for 992px width */
+@media screen and (min-width: 992px) {
+  .banner-title {
+    font-size: calc(56px * 0.7);
+  }
+  .banner-text {
+    font-size: calc(92px * 0.7);
+  }
+}
+
+/* Media query for 1200px width */
+@media screen and (min-width: 1200px) {
+  .banner-title {
+    font-size: calc(56px * 0.9);
+  }
+  .banner-text {
+    font-size: calc(92px * 0.9);
+  }
+}
+
+/* Media query for 1440px width */
+@media screen and (min-width: 1440px) {
+  .banner-title {
+    font-size: 56px;
+    font-size: calc(56px * 0.9);
+  }
+  .banner-text {
+    font-size: 92px;
+  }
+}
