@@ -12,6 +12,14 @@ button {
   border: none;
   cursor: pointer;
 }
+.link-primary {
+  color: #f8b801;
+  transition: color 250ms ease;
+}
+
+.link-primary:is(:hover, :focus) {
+  color: #000;
+}
 
 .accent {
   font-style: italic;

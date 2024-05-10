@@ -1,0 +1,40 @@
+.kontakt-bg {
+  background-image: url("../img/contact-top.jpg");
+  background-position: left bottom;
+  height: calc(100vw / 2.365);
+}
+.hero-section-title {
+  color: #fff;
+  padding-top: calc(100vw / 6);
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 576px) {
+  .hero-section-title {
+    font-size: 56px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section-title {
+    font-size: 64px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hero-section-title {
+    text-align: initial;
+    padding-top: 21%;
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-section-title {
+    font-size: 112px;
+  }
+}

@@ -44,11 +44,6 @@
 .home-bg {
   background-image: url("../img/home-hero.jpg");
 }
-.kontakt-bg {
-  background-image: url("../img/contact-top.jpg");
-  background-position: left bottom;
-  height: calc(100vh - 186px);
-}
 .hero-footer {
   display: flex;
   flex-wrap: wrap;

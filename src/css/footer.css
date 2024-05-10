@@ -26,6 +26,7 @@
 .social-item:is(:hover, :focus) .footer-social-icon {
   fill: #fff;
 }
+.primary-link,
 .footer-address-link,
 .footer-link {
   transition: color 250ms ease-in;
