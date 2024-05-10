@@ -39,8 +39,14 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   background-image: url("../img/home-hero.jpg");
+}
+.home-bg {
+  background-image: url("../img/home-hero.jpg");
+}
+.kontakt-bg {
+  background-image: url("../img/contact-top.jpg");
+  height: calc(100vw / 2.365);
 }
 .hero-footer {
   display: flex;
@@ -52,7 +58,7 @@
 }
 .container-hero {
   width: 90%;
-  padding: 0 24px;
+  padding: 0 5%;
   margin: 0 auto;
 }
 @media screen and (min-width: 576px) {
