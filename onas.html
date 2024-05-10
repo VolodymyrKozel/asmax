@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/asmax/vite.svg" />
+    <!--Google font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AsMax</title>
+    <script type="module" crossorigin src="/asmax/assets/main-DIBLvnX5.js"></script>
+    <link rel="stylesheet" crossorigin href="/asmax/assets/main-CkUXZD8z.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <a class="logo-link" href="#">
+      <img
+        class="header-img-logo"
+        src="../img/logo1.png"
+        alt="AS MAX GROUP furniture assembly"
+        width="239"
+        height="81" />
+    </a>
+    <button
+      class="menu-btn js-open-menu"
+      type="button"
+      aria-label="Open menu button">
+      <svg class="menu-btn-icon" width="28" height="28">
+        <use href="/asmax/assets/icons-BQtHr68L.svg#icon-hamburger"></use>
+      </svg>
+    </button>
+    <nav class="nav is-open js-menu-container">
+      <button
+        class="menu-btn-close js-close-menu"
+        type="button"
+        aria-label="Close menu button">
+        <svg class="menu-btn-icon" width="28" height="28">
+          <use href="/asmax/assets/icons-BQtHr68L.svg#icon-close"></use>
+        </svg>
+      </button>
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a class="menu-link header-link" href="#">O nas</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link header-link" href="./uslugi.html">USŁUGI</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link header-link" href="./flota.html">Flota</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link header-link" href="./wspolpraca.html"
+            >Współpracuj z nami</a
+          >
+        </li>
+        <li class="menu-item">
+          <a class="menu-link header-link" href="./kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+      <div class="custom-select">
+        <select id="standart-select">
+          <option selected>PL</option>
+          <option value="1">PL</option>
+          <option value="2">UK</option>
+          <option value="3">DE</option>
+        </select>
+      </div>
+    </nav>
+
+    <div class="right-side">
+      <ul class="social-list">
+        <li class="social-item">
+          <a
+            class="social-list-item-link"
+            href="https://www.facebook.com/MaxAssemblyGroupPolska"
+            target="_blank"
+            rel="noopener noreferrer"
+            arial-label="facebook">
+            <svg class="svg-icon" width="24" height="24">
+              <use href="/asmax/assets/icons-BQtHr68L.svg#icon-facebook" />
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            class="social-list-item-link"
+            href="https://www.linkedin.com/company/as-max-group/"
+            target="_blank"
+            rel="noopener noreferrer"
+            arial-label="linkedin">
+            <svg class="svg-icon" width="24" height="24">
+              <use href="/asmax/assets/icons-BQtHr68L.svg#icon-linkedin" />
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            class="social-list-item-link"
+            href="https://www.instagram.com/as_max_group"
+            target="_blank"
+            rel="noopener noreferrer"
+            arial-label="instagram">
+            <svg class="svg-icon" width="24" height="24">
+              <use href="/asmax/assets/icons-BQtHr68L.svg#icon-instagram" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <div class="header-contact">
+        <img
+          class="contact-img"
+          src="../img/phone.svg"
+          alt="phone"
+          width="47"
+          height="47" />
+        <div class="contact-info">
+          <p class="header-contact-text">zadzwoń do nas</p>
+          <a class="header-contact-phone" href="48500430901"
+            >+48 500 430 901
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <section class="hero-section hero-bg hero kontakt-bg">
+  <div class="container-hero">
+    <h1 class="hero-title">Kontakt</h1>
+  </div>
+</section>
+
+      <section class="kontakt">
+  <div class="kontakt-container">
+    <div class="kontakt-form">
+      <h2 class="form-title"><span class="accent">Napisz</span> do nas</h2>
+      <form>
+        <input
+          class="form-input"
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Imię i Nazwisko"
+          required
+        />
+        <input
+          class="form-input"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="E-mail"
+          required
+        />
+        <input
+          class="form-input"
+          type="text"
+          id="phone"
+          name="phone"
+          placeholder="Telefon"
+          required
+        />
+        <textarea
+          class="form-input form-textarea"
+          id="message"
+          placeholder="Wiadomość"
+          name="message"
+        ></textarea>
+        <input class="btn form-btn" type="submit" value="wyslij" />
+      </form>
+    </div>
+    <p class="kontakt-title">
+      Potrzebujesz usług związanych z<br />
+      <span class="accent">transportem i montażem mebli</span> do klienta?<br />
+      Szukasz jednej firmy,<br />
+      która zajmie się wszystkim?
+    </p>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <a class="footer-logo-link" href="#">
+        <img
+          class="footer-img-logo"
+          src="../img/logo-footer.png"
+          alt="AS MAX GROUP furniture assembly"
+          width="239"
+          height="81" />
+      </a>
+      <address class="footer-location">
+        <p class="footer-title">AS MAX GROUP</p>
+        <p class="footer-address-text">
+          ul. Lubczyńska 22a<br />70-896 Szczecin
+        </p>
+      </address>
+      <address class="footer-address">
+        <ul class="footer-address-list">
+          <li class="footer-address-item">
+            <a class="footer-address-link footer-phone" href="48500430901"
+              >+48 500 430 901
+            </a>
+          </li>
+          <li>
+            <a
+              class="footer-address-link footer-email"
+              href="mailto:info@asmaxgroup.com"
+              >info@asmaxgroup.com</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="social-list footer-social">
+        <li class="social-item">
+          <a
+            class="social-list-item-link"
+            href="https://www.facebook.com/MaxAssemblyGroupPolska"
+            target="_blank"
+            rel="noopener noreferrer"
+            arial-label="facebook">
+            <svg class="footer-social-icon svg-icon" width="24" height="24">
+              <use href="/asmax/assets/icons-BQtHr68L.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            class="social-list-item-link"
+            href="https://www.linkedin.com/company/as-max-group/"
+            target="_blank"
+            rel="noopener noreferrer"
+            arial-label="linkedin">
+            <svg class="footer-social-icon svg-icon" width="24" height="24">
+              <use href="/asmax/assets/icons-BQtHr68L.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            class="social-list-item-link"
+            href="https://www.instagram.com/as_max_group"
+            target="_blank"
+            rel="noopener noreferrer"
+            arial-label="instagram">
+            <svg class="footer-social-icon svg-icon" width="24" height="24">
+              <use href="/asmax/assets/icons-BQtHr68L.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <ul class="footer-list">
+        <li class="menu-item footer-item">
+          <a class="footer-link" href="onas.html">O nas</a>
+        </li>
+        <li class="menu-item footer-item">
+          <a class="footer-link" href="uslugi.html">USŁUGI</a>
+        </li>
+        <li class="menu-item footer-item">
+          <a class="footer-link" href="flota.html">Flota</a>
+        </li>
+        <li class="menu-item footer-item">
+          <a class="footer-link" href="wspolpraca.html">Współpracuj z nami</a>
+        </li>
+        <li class="menu-item footer-item">
+          <a class="footer-link" href="kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+      <p class="footer-copyrights">
+        © 2021 - 2024 As Max Group. Wszelkie prawa zastrzeżone. Projekt i
+        wykonanie:
+        <a
+          class="footer-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="http://virtualpeople.pl"
+          >Virtual People</a
+        >
+      </p>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
