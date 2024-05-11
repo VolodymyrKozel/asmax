@@ -1,20 +1,21 @@
-.kontakt {
+.hp-kontakt {
   max-width: 1920px;
   margin: 0 auto;
 }
-.kontakt-form-bg {
-  background-position: center bottom;
+.hp-kontakt-form-bg {
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../img/contact.jpg);
-  /*   height: 1168px; */
+  background-image: url(../img/hp-bottom.jpg);
+  height: calc(100vw / (1920 / 958));
+  min-height: 958px;
 }
-.kontakt-container {
+.hp-kontakt-container {
   display: flex;
   justify-content: space-between;
   gap: 32px;
   width: 90%;
-  padding: 0 24px;
+  padding: 8% 24px;
   margin: 0 auto;
 }
 .kontakt-title {
@@ -25,7 +26,7 @@
 }
 .accent {
 }
-.kontakt-form {
+.hp-kontakt-form {
   padding: 4.5% 6% 2.5% 6%;
   background-color: #f8b801;
 }
@@ -101,7 +102,7 @@
   .kontakt-title {
     text-align: right;
   }
-  .kontakt-form {
+  .hp-kontakt-form {
     width: 40%;
   }
   .form-title {
@@ -117,7 +118,7 @@
   .form-title {
     font-size: 38px;
   }
-  .kontakt-form {
+  .hp-kontakt-form {
     width: 30%;
   }
   .kontakt-title {
@@ -140,69 +141,9 @@
 
 /* Media query for 1440px width */
 @media screen and (min-width: 1440px) {
+  .hp-kontakt-form {
+  }
   .form-title {
     font-size: 56px;
   }
-}
-.kontakt-info {
-}
-.kontakt {
-}
-.kontakt-info-container {
-  padding: 0 24px;
-  margin-bottom: 6%;
-}
-.kontakt-info-text {
-  padding-top: 6%;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.8;
-  margin-bottom: 36px;
-}
-.kontakt-info-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 32px;
-  margin-bottom: 32px;
-}
-.kontakt-item {
-}
-.kontakt-list-title {
-  margin-bottom: 20px;
-}
-.kontakt-list-title,
-.kontakt-info-email,
-.kontakt-info-link {
-  font-size: 26px;
-  line-height: 1.42;
-}
-.kontakt-list-subtitle {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  color: #000;
-  font-size: 16px;
-  font-weight: 500;
-  margin: 10px 0;
-}
-.kontakt-info-link {
-  display: block;
-  font-family: "Libre Baskerville", serif;
-}
-.kontakt-info-email {
-  text-align: center;
-}
-.kontakt-info-email .kontakt-info-link {
-  display: inline-block;
-}
-
-.link-primary {
-  color: #f8b801;
-  transition: color 400ms ease-in;
-}
-
-.link-primary:is(:hover, :focus) {
-  color: #000;
 }
