@@ -1,7 +1,10 @@
 .kontakt-bg {
   background-image: url("../img/contact-top.jpg");
+}
+.section-bg {
   background-position: left bottom;
   height: calc(100vw / 2.365);
+  max-height: 812px;
 }
 
 .hero-section-title {
