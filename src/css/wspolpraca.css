@@ -2,12 +2,17 @@
   background-image: url("../img/coop-top.jpg");
   background-position: left bottom;
   height: calc(100vw / 2.365);
+  max-height: 812px;
 }
 .padding-bottom {
   height: 7.3vw;
+  max-height: 140px;
 }
 
-.wspolpraca {
+.wspolpraca,
+.two-column {
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .wspolpraca-container {
@@ -26,10 +31,20 @@
   flex-shrink: 0;
 }
 .wspolpraca-title {
-  margin-bottom: 40px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.8;
+}
+.wspolpraca-title::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 130%;
+  content: "";
+  border-bottom: 2px solid #d1d0d1;
 }
 .wspolpraca-text {
   margin-top: 37px;
@@ -74,7 +89,7 @@
     width: 80%;
   }
   .two-column-wrapper {
-    padding-bottom: 10%;
+    padding-bottom: calc(100vw / (1920 / 140));
   }
 }
 
@@ -123,8 +138,15 @@
   .two-column-content {
     padding: 24px;
   }
+  .wspolpraca-title::after {
+    width: 100%;
+  }
 }
 @media (min-width: 992.1px) and (max-width: 1200px) {
+  .wspolpraca-title {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
   .two-column-text {
     font-size: 12px;
     line-height: 1.5;
@@ -157,6 +179,9 @@
     font-size: 42px;
     margin-bottom: 58px;
   }
+  .wspolpraca-title::after {
+    width: 120%;
+  }
   /*   .two-column {
     padding: 100px;
   } */
@@ -165,6 +190,9 @@
   .two-column-title {
     font-size: 56px;
     margin-bottom: 78px;
+  }
+  .wspolpraca-title::after {
+    width: 145%;
   }
   /*   .two-column {
     padding: 140px;

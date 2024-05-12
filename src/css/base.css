@@ -91,3 +91,83 @@ button {
 .same-as-selected {
   color: #f9b800;
 }
+
+/* typography */
+:root {
+  --fs--h1: 32px;
+  --fs--h2: 24px;
+  --fs--h3: 18px;
+  --fs--h4: 16px;
+  --fs--h5: 14px;
+  --fs--h6: 12px;
+}
+
+h1 {
+  font-size: var(--fs--h1);
+}
+
+h2 {
+  font-size: var(--fs--h2);
+}
+
+@media (min-width: 568px) {
+  /* 0.25 */
+  :root {
+    --fs--h1: 40px;
+    --fs--h2: 32px;
+    --fs--h3: 24px;
+    --fs--h4: 22px;
+    --fs--h5: 18px;
+    --fs--h6: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* 0.375 */
+  :root {
+    --fs--h1: 54px;
+    --fs--h2: 40px;
+    --fs--h3: 24px;
+    --fs--h4: 22px;
+    --fs--h5: 18px;
+    --fs--h6: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* 0.5 */
+  :root {
+    --fs--h1: 56px;
+    --fs--h2: 46px;
+    --fs--h3: 28px;
+    --fs--h4: 24px;
+    --fs--h5: 18px;
+    --fs--h6: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* 0.625 */
+  /* 0.625 * 92 */
+  :root {
+    /*  --fs--h1: 96px; */
+    --fs--h1: 70px;
+    --fs--h2: 58px;
+    --fs--h3: 35px;
+    --fs--h4: 30px;
+    --fs--h5: 20px;
+    --fs--h6: 16px;
+  }
+}
+
+@media (min-width: 1440px) {
+  /* 0.75 */
+  :root {
+    --fs--h1: 112px;
+    --fs--h2: 92px;
+    --fs--h3: 56px;
+    --fs--h4: 48px;
+    --fs--h5: 32px;
+    --fs--h6: 24px;
+  }
+}
