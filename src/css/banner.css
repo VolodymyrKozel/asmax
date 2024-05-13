@@ -4,7 +4,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(100vw / (1920 / 617));
+  height: calc(100vw / (1920 / 650));
+  max-width: 1920px;
   min-height: 250px;
 }
 .container {
@@ -34,6 +35,7 @@
   font-size: var(--fs--h2);
   line-height: 1.2;
   margin-bottom: 37px;
+  letter-spacing: -0.03em;
 }
 .btn {
 }
@@ -71,9 +73,6 @@
 
 /* Media query for 576px width */
 @media screen and (min-width: 576px) {
-  .banner-btn {
-    font-size: 16px;
-  }
 }
 
 /* Media query for 768px width */
@@ -93,8 +92,7 @@
 /* Media query for 1200px width */
 @media screen and (min-width: 1200px) {
   .banner-btn {
-    font-size: 18px;
-    padding: 1.6em 2.44em 1.6em 2.44em;
+    font-size: 16px;
   }
   .banner-title {
     font-size: calc(56px * 0.9);
@@ -106,6 +104,10 @@
 
 /* Media query for 1440px width */
 @media screen and (min-width: 1440px) {
+  .banner-btn {
+    font-size: 18px;
+    padding: 1.6em 2.44em 1.6em 2.44em;
+  }
   .banner-title {
     font-size: 56px;
     font-size: calc(56px * 0.9);
